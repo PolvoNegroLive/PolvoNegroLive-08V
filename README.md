@@ -2,103 +2,132 @@
   <img src="Imagem/logo.png" width="220" alt="Logotipo oficial do Polvo Negro Live">
 </p>
 
-<h1 align="center">🐙 Polvo Negro Live V08</h1>
+<h1 align="center">🐙 Polvo Negro Live</h1>
 
 <p align="center">
-  <strong>Captura, processamento e transmissão de áudio e vídeo para Windows, com foco em modularidade e computadores com recursos limitados.</strong>
+  <strong>Sistema modular de captura, processamento e transmissão de áudio e vídeo para Windows, com foco em computadores com recursos limitados.</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Plataforma-Windows%2010%2F11-blue" alt="Windows 10 e 11">
   <img src="https://img.shields.io/badge/Processamento-FFmpeg-green" alt="FFmpeg">
   <img src="https://img.shields.io/badge/Interface-Python%20%2B%20Tkinter-orange" alt="Python e Tkinter">
-  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow" alt="Em desenvolvimento">
+  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow" alt="Projeto em desenvolvimento">
 </p>
 
 ---
 
 ## 📌 Sobre o projeto
 
-O **Polvo Negro Live** é um projeto desenvolvido por **Diêgo Botelho Pereira** para facilitar a captura, o processamento e a transmissão de áudio e vídeo em computadores Windows.
+O **Polvo Negro Live** é um projeto desenvolvido por **Diêgo Botelho Pereira**, com o objetivo de facilitar a captura, o processamento e a transmissão de áudio e vídeo em computadores Windows.
 
-A proposta é oferecer uma alternativa modular para transmissões ao vivo, considerando também computadores com recursos limitados e usuários que precisam de uma solução adaptável.
+A proposta é oferecer uma solução modular e adaptável, inclusive para computadores com recursos limitados.
 
-O sistema utiliza Python para a aplicação e o FFmpeg para tarefas de processamento de mídia, conforme os recursos implementados no código.
+O sistema utiliza Python para a aplicação e FFmpeg para tarefas de processamento de mídia, de acordo com os recursos implementados no código.
 
-O projeto está em desenvolvimento contínuo. A disponibilidade e a estabilidade das funcionalidades dependem da versão, dos dispositivos utilizados e dos testes realizados.
+O projeto continua em desenvolvimento. A disponibilidade e a estabilidade das funcionalidades dependem da implementação existente e dos testes realizados.
 
 ## 🖥️ Interface do programa
 
-A seguir estão as quatro imagens horizontais destinadas à apresentação das áreas do aplicativo.
+As imagens a seguir apresentam as principais áreas da interface. Os arquivos ficam organizados na pasta `Imagem/` do repositório.
 
-### 1. Painel principal
-
-Tela principal do Polvo Negro Live.
+### Painel principal
 
 <p align="center">
-  <img src="Imagem/painel-principal.png" width="100%" alt="Captura real do painel principal do Polvo Negro Live">
+  <img src="Imagem/painel-principal.png" width="100%" alt="Painel principal do Polvo Negro Live">
 </p>
 
-### 2. Configurações
-
-Área destinada às configurações do aplicativo.
+### Configurações
 
 <p align="center">
-  <img src="Imagem/painel-configuracoes.png" width="100%" alt="Captura real da área de configurações do Polvo Negro Live">
+  <img src="Imagem/painel-configuracoes.png" width="100%" alt="Painel de configurações do Polvo Negro Live">
 </p>
 
-### 3. Transmissão
-
-Área de gerenciamento das opções e dos destinos de transmissão.
+### Transmissão
 
 <p align="center">
-  <img src="Imagem/painel-transmissao.png" width="100%" alt="Captura real da área de transmissão do Polvo Negro Live">
+  <img src="Imagem/painel-transmissao.png" width="100%" alt="Painel de transmissão do Polvo Negro Live">
 </p>
 
-### 4. Diagnóstico
-
-Área destinada às informações técnicas, aos registros e ao diagnóstico de possíveis problemas.
+### Diagnóstico
 
 <p align="center">
-  <img src="Imagem/painel-diagnostico.png" width="100%" alt="Captura real da área de diagnóstico do Polvo Negro Live">
+  <img src="Imagem/painel-diagnostico.png" width="100%" alt="Painel de diagnóstico do Polvo Negro Live">
 </p>
 
-> As imagens devem representar as telas reais do programa. Os títulos acima descrevem a finalidade pretendida de cada imagem; ajuste-os se o conteúdo visual for diferente.
+## 🖼️ Organização de imagens e fotografias
+
+A pasta `Imagem/` é o diretório principal destinado aos recursos visuais do projeto.
+
+Ela pode conter logotipos, fotografias, capturas de tela, ilustrações, artes de apresentação, ícones e outros arquivos de imagem.
+
+### Formatos de arquivo
+
+A organização dos arquivos não deve ficar limitada exclusivamente ao formato PNG. Conforme as ferramentas utilizadas e a finalidade do arquivo, podem ser armazenados formatos como:
+
+- **PNG:** imagens com transparência e capturas de tela.
+- **JPG e JPEG:** fotografias e imagens compactadas.
+- **WEBP:** imagens compactadas para a web.
+- **GIF:** imagens animadas ou estáticas.
+- **BMP:** imagens bitmap.
+- **TIFF e TIF:** imagens de alta qualidade.
+- **SVG:** logotipos e gráficos vetoriais.
+- **ICO:** ícones de aplicativos.
+- **AVIF:** imagens modernas com compressão eficiente.
+- **HEIC e HEIF:** fotografias de dispositivos compatíveis.
+- **RAW e outros formatos de fotografia:** arquivos originais de câmeras, quando necessários.
+
+A lista é ilustrativa, não uma garantia de que todos esses formatos serão exibidos pelo GitHub, abertos pelo aplicativo ou processados pelas ferramentas do projeto.
+
+**Importante:** o repositório pode armazenar diferentes tipos de arquivo, mas a visualização direta no README depende do suporte do GitHub. A abertura e o processamento dentro do aplicativo dependem das bibliotecas e dos recursos implementados.
+
+### Arquivos de referência
+
+```text
+Imagem/
+├── logo.png
+├── painel-principal.png
+├── painel-configuracoes.png
+├── painel-transmissao.png
+└── painel-diagnostico.png
+```
+
+Esses são os nomes dos cinco arquivos principais de apresentação. Outros arquivos de imagem podem ser adicionados à mesma pasta sem que todos precisem ser renomeados para PNG.
+
+O logotipo oficial usado pelo aplicativo deve continuar compatível com o caminho de arquivo utilizado pelo código.
 
 ## 🎯 Objetivos
 
-- Oferecer uma alternativa modular para captura e transmissão ao vivo.
-- Permitir a utilização de câmeras e placas de captura USB compatíveis.
+- Facilitar a captura e a transmissão ao vivo.
+- Permitir o uso de câmeras e placas de captura USB compatíveis.
 - Utilizar o FFmpeg para processamento de áudio e vídeo.
-- Organizar transmissões para diferentes destinos compatíveis com RTMP/RTMPS.
-- Facilitar a identificação de falhas de conexão e transmissão.
+- Organizar transmissões para destinos RTMP/RTMPS.
+- Facilitar o diagnóstico de problemas de conexão.
 - Buscar um funcionamento eficiente em computadores modestos.
-- Manter uma estrutura organizada para manutenção e evolução do sistema.
+- Manter o código e os recursos visuais organizados.
 
 ## ⚙️ Recursos do sistema
 
-Conforme a implementação existente, o projeto pode incluir:
+Conforme implementados no código, os recursos podem incluir:
 
-- **Captura de vídeo:** integração com dispositivos compatíveis com DirectShow.
-- **Captura de áudio:** utilização de dispositivos de áudio compatíveis.
-- **Processamento de mídia:** utilização do FFmpeg.
-- **Perfis de transmissão:** organização de formatos horizontais e verticais.
-- **Destinos de streaming:** gerenciamento de envios RTMP/RTMPS.
-- **Reconexão:** tentativas de recuperação de conexões interrompidas.
-- **Diagnóstico:** verificações de conectividade e publicação.
-- **Logs:** registros para auxiliar na investigação de erros.
-- **Interface gráfica:** painel desenvolvido com Python e Tkinter.
-- **Configurações locais:** armazenamento de preferências e parâmetros.
+- Captura de vídeo por dispositivos compatíveis com DirectShow.
+- Captura de áudio por dispositivos compatíveis.
+- Processamento de mídia com FFmpeg.
+- Organização de perfis horizontais e verticais.
+- Gerenciamento de destinos de streaming.
+- Tentativas de reconexão.
+- Diagnóstico de conectividade.
+- Registros para investigação de erros.
+- Interface gráfica desenvolvida com Python e Tkinter.
+- Armazenamento local de configurações.
 
-A presença de cada recurso deve ser confirmada no código e na documentação da versão publicada.
+A presença de cada recurso deve ser confirmada na implementação atual.
 
 ## 🧩 Arquitetura conceitual
 
-O fluxo geral do sistema pode ser representado desta forma:
-
 ```text
 ┌────────────────────────────────┐
-│ Câmera / Placa de captura USB  │
+│ Câmera / placa de captura USB  │
 │ Dispositivos de áudio          │
 └───────────────┬────────────────┘
                 │
@@ -121,65 +150,57 @@ O fluxo geral do sistema pode ser representado desta forma:
 └───────────────┘ └───────────────┘
 ```
 
-O diagrama é conceitual. A implementação real pode apresentar diferenças conforme a arquitetura e os recursos presentes no código.
+Este diagrama representa o fluxo conceitual. A arquitetura efetiva depende da implementação do programa.
 
 ## 💻 Requisitos
 
 ### Sistema operacional
 
 - Windows 10 ou Windows 11, preferencialmente de 64 bits.
-- Drivers compatíveis com os dispositivos de áudio e vídeo.
-- Permissões adequadas para acessar câmeras, placas de captura e arquivos.
+- Drivers compatíveis com os dispositivos utilizados.
+- Permissões adequadas para acessar os dispositivos e arquivos.
 
 ### Dependências
 
 - Python 3.10 ou superior, quando executado pelo código-fonte.
-- FFmpeg de 64 bits, instalado ou configurado conforme a documentação.
-- Tcl/Tk para a interface gráfica baseada em Tkinter.
-- Pillow, quando necessário para ferramentas específicas de imagens.
+- FFmpeg de 64 bits, conforme a configuração do projeto.
+- Tcl/Tk para a interface baseada em Tkinter.
+- Pillow ou outras bibliotecas, quando exigidas pelos recursos implementados.
 
-A inclusão dessas dependências no executável ou instalador depende do processo de distribuição implementado pelo projeto.
+A inclusão dessas dependências no executável depende do processo de distribuição.
 
 ## 🚀 Como executar
 
-Os comandos a seguir pressupõem que os respectivos arquivos existam na raiz do repositório.
-
-### 1. Baixar o projeto
+Clone o repositório:
 
 ```bash
 git clone https://github.com/PolvoNegroLive/PolvoNegroLive-01V.git
 cd PolvoNegroLive-01V
 ```
 
-### 2. Verificar o computador
+Se os scripts correspondentes estiverem presentes, execute no Windows:
 
-No Windows, execute o arquivo:
+**Verificar o computador**
 
 ```text
 VERIFICAR_PC.bat
 ```
 
-### 3. Iniciar o aplicativo
-
-Execute:
+**Iniciar o aplicativo**
 
 ```text
 INICIAR_POLVO_NEGRO_LIVE.bat
 ```
 
-### 4. Criar o executável
-
-Se o processo de empacotamento estiver configurado, execute:
+**Criar o executável**
 
 ```text
 CRIAR_EXE.bat
 ```
 
-Se ocorrer algum erro, consulte as mensagens do terminal e a documentação técnica do projeto.
+Os scripts e suas dependências devem ser conferidos no repositório antes da execução.
 
 ## 📁 Estrutura do projeto
-
-A organização visual definida para o README é:
 
 ```text
 PolvoNegroLive-01V/
@@ -196,116 +217,73 @@ PolvoNegroLive-01V/
 └── README.md
 ```
 
-Os diretórios `docs/`, `scripts/`, `tests/` e `tools/` devem ser mantidos conforme a estrutura real do repositório. O exemplo não exige criar pastas que ainda não existam.
-
-### Organização das imagens
-
-A pasta `Imagem/` reúne os recursos visuais usados na apresentação do projeto:
-
-| Arquivo | Finalidade |
-|---|---|
-| `logo.png` | Logotipo oficial |
-| `painel-principal.png` | Tela principal |
-| `painel-configuracoes.png` | Tela de configurações |
-| `painel-transmissao.png` | Tela de transmissão |
-| `painel-diagnostico.png` | Tela de diagnóstico |
-
-Os nomes e os caminhos precisam corresponder exatamente aos arquivos enviados ao GitHub, incluindo letras maiúsculas e minúsculas.
-
-Se o programa utilizar o logotipo por um caminho diferente, preserve a compatibilidade do aplicativo ao organizar os arquivos.
+A estrutura é ilustrativa. Mantenha os diretórios e arquivos que realmente existem no projeto.
 
 ## 🧪 Testes e validação
 
-Se os testes automatizados estiverem configurados, execute:
+Se os testes estiverem configurados, execute:
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-Caso exista um script próprio de testes, utilize as instruções fornecidas pelo projeto.
+Valide a inicialização, a interface, a localização das imagens, a disponibilidade do FFmpeg, a captura dos dispositivos, os destinos de transmissão e a geração do executável, quando aplicável.
 
-Entre os pontos importantes para validação estão:
-
-- Inicialização do programa.
-- Carregamento da interface.
-- Localização dos recursos visuais.
-- Disponibilidade do FFmpeg.
-- Detecção dos dispositivos de captura.
-- Configuração dos destinos de transmissão.
-- Funcionamento dos logs e diagnósticos.
-- Persistência e proteção das configurações.
-- Geração do executável ou instalador.
-- Testes reais de captura e transmissão no Windows.
-
-A aprovação de testes automatizados não garante, por si só, que todos os dispositivos e destinos de streaming funcionarão corretamente.
+Os testes automatizados não substituem a verificação real de captura e transmissão no Windows.
 
 ## 🔐 Segurança e privacidade
 
-Para proteger o usuário e o projeto:
-
 - Não publique chaves de transmissão, senhas ou tokens.
-- Não envie arquivos de configuração que contenham credenciais.
-- Evite registrar chaves completas nos logs.
-- Proteja as configurações locais conforme os mecanismos disponíveis.
-- Verifique os arquivos antes de enviar alterações ao repositório.
-- Remova dados pessoais e informações sensíveis de capturas de tela.
-
-Consulte `docs/SECURITY.md` se esse arquivo existir no repositório.
+- Não inclua arquivos pessoais ou logs com dados sensíveis.
+- Evite registrar credenciais completas nos logs.
+- Preserve a proteção das configurações locais.
+- Confira os arquivos antes de publicar alterações no repositório.
 
 ## 📚 Documentação complementar
 
-A documentação pode incluir:
+Caso existam no repositório, consulte:
 
-- `docs/ARQUITETURA.md` — arquitetura e funcionamento interno.
-- `docs/SECURITY.md` — segurança e proteção das configurações.
+- `docs/ARQUITETURA.md` — arquitetura interna.
+- `docs/SECURITY.md` — segurança.
 - `docs/CHANGELOG.md` — histórico de alterações.
 - `docs/CONTRIBUTING.md` — orientações para contribuições.
 
-Os arquivos devem ser vinculados aos seus caminhos reais. Não mantenha links para documentos inexistentes.
+Mantenha os caminhos correspondentes aos arquivos reais.
 
 ## 🗺️ Estado atual e limitações
 
-O Polvo Negro Live V08 está em desenvolvimento. O funcionamento pode variar de acordo com o hardware, os drivers, as versões das dependências e as configurações de transmissão.
+O Polvo Negro Live está em desenvolvimento. A compatibilidade pode variar conforme o hardware, os drivers, as dependências e os destinos de transmissão.
 
-Os seguintes pontos merecem validação em ambiente Windows real:
-
-- Captura DirectShow.
-- Compatibilidade dos dispositivos de áudio e vídeo.
-- Proteção de credenciais.
-- Geração e execução do executável ou instalador.
-- Transmissão real para destinos RTMP/RTMPS.
-- Desempenho em computadores com recursos limitados.
-
-A descrição deste README não substitui a verificação do código nem os resultados dos testes.
+Os recursos devem ser considerados concluídos somente quando a implementação e os testes correspondentes confirmarem seu funcionamento.
 
 ## 🤝 Contribuições
 
-Contribuições para melhorar a estabilidade, a compatibilidade, o desempenho e a documentação são bem-vindas.
+Contribuições para melhorar a estabilidade, a compatibilidade, a documentação e o desempenho são bem-vindas.
 
 Ao modificar o projeto:
 
-1. Preserve os recursos que já funcionam.
+1. Preserve os recursos existentes.
 2. Evite dependências desnecessárias.
-3. Atualize os caminhos dos recursos quando houver alterações.
-4. Atualize a documentação correspondente.
+3. Atualize os caminhos dos arquivos quando necessário.
+4. Atualize a documentação.
 5. Execute os testes disponíveis.
-6. Registre as limitações que permanecerem.
+6. Registre as limitações conhecidas.
 
 ## 📄 Licença
 
-A licença deve corresponder à licença efetivamente escolhida pelo responsável pelo projeto. Se ainda não houver uma licença definida, ela deverá ser estabelecida antes de declarar condições específicas de uso, modificação ou redistribuição.
+A licença deve corresponder àquela efetivamente definida pelo responsável pelo projeto. Não presuma permissões de redistribuição ou uso irrestrito sem uma licença aplicável.
 
 ## 👨‍💻 Autor
 
 **Diêgo Botelho Pereira**
 
-**Projeto:** Polvo Negro Live V08
+**Projeto:** Polvo Negro Live
 
-**Repositório:** [PolvoNegroLive-01V](https://github.com/PolvoNegroLive/PolvoNegroLive-01V)
+**Repositório:** [PolvoNegroLive no GitHub](https://github.com/PolvoNegroLive/PolvoNegroLive-01V)
 
 ---
 
 <p align="center">
   <strong>🐙 Polvo Negro Live</strong><br>
-  <em>Uma proposta modular de captura e transmissão para Windows.</em>
+  <em>Captura e transmissão modular para Windows.</em>
 </p>
