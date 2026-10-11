@@ -1,0 +1,1 @@
+Pillow>=10   # SOMENTE para tools/make_assets.py; o programa nao precisa de nada alem do Python 3

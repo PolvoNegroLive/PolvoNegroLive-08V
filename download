@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Dados e segredos (nunca publicar)
+logs/
+data/
+*.log
+config/*.json
+.env
+*.key
+# Build
+build/
+dist/
+installer/Output/
+# FFmpeg local (baixe você mesmo; veja o README)
+ffmpeg/
